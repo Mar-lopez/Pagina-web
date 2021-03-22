@@ -1,0 +1,170 @@
+*{
+    padding:0;
+    margin:0;
+    color:#000000;
+    
+}
+
+html, body{
+    background-color: #ffffff;
+    text-align: center;
+    
+}
+.Z{
+    border:5px solid #162123;
+    border-radius: 0px;
+    margin: 0rem ;
+    background-color: #162123;
+    text-align: right;
+    font-family: 'Josefin Sans', sans-serif;
+    /*Letra mas recta*/
+}
+
+#agrupar {
+    background-color: #F3CECB; 
+    padding: 40px 40px 20px 500px; 
+    font-family: 'Playfair Display', serif;
+    /*Letra mas elegante*/
+}
+
+#menu {  
+    background-color: #F3CECB; 
+    padding:1px 0px 1px 250px ; 
+    
+} 
+#menu li { 
+    display: inline-block; 
+    list-style: none; 
+    font: bold 14px verdana, sans-serif; 
+    padding: 1em 3px 0px 25px;  
+    /*  arriba    1em  padding  */
+    /*  derecha  3px  padding  */
+    /*  abajo 30px padding  */
+    /*  izquierda   5px  padding
+    /* en dirección de las agujas del reloj */
+}
+
+
+.estilo{
+    border:5px solid #F6F4F5;
+    border-radius: 0px;
+    margin: 0rem ;
+    background-color: #F6F4F5;
+    text-align: Center; 
+    font-family: 'Playfair Display', serif;
+    /*Letra mas elegante*/
+}
+.que-es{
+    display: inline-block; 
+    /*
+    border:5px solid #000000;
+    border-radius: 10px;
+    Este es para hacer 
+    circular el margen*/
+    padding: 3rem;
+    /*hacia abajo*/
+    width: 65%;
+    /*ancho*/
+    height: 10rem;
+   /*largo*/
+    background-color: #F6F4F5;
+    text-align: Center; 
+    
+}
+.tips{
+    display: inline-block; 
+    /*
+    border:5px solid #000000;
+    border-radius: 10px;
+    Este es para hacer 
+    circular el margen*/
+    padding: 3rem;
+    /*hacia abajo*/
+    width: 65%;
+    /*ancho*/
+    height: 10rem;
+   /*largo*/
+    background-color: #F6F4F5;
+    text-align: Center; 
+}
+.outfits{
+    border:5px solid #F6F4F5;
+    border-radius: 0px;
+    margin: 0rem ;
+    background-color: #F6F4F5;
+    
+}
+
+
+.style_prevu_kit{
+    display: inline-block;
+    border:0;
+    /*
+    width: 196px;
+    height: 210px;
+     */
+    position: static;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+
+}
+
+.style_prevu_kit img{
+    position: static;
+    margin: .5rem;
+    /*marguen*/
+    border-radius: 0%;
+    /*Este es para hacer 
+    circular el margen*/
+    height: 0px;
+    bottom: 0px;
+    /*posision */
+    width: 15rem;
+    /*tamaño */
+    height: auto;
+    display: block; 
+}
+
+.style_prevu_kit figure{
+    /*background-color: #f6f4f5;*/
+    border: 5px solid #162123;
+    
+    margin-bottom: 1px;
+    width: 40%;
+    border-radius: 0px;
+    height: 20px;
+    background-color: #FFFFFF;
+    
+    display: inline-table;
+}
+
+.style_prevu_kit article {
+    /*border: 5px solid #104240;*/
+    padding: 10px;
+    margin-bottom: 1px;
+    width: 0%;
+    border-radius: 0px;
+    height: 20px;
+    /*background-color: #f6f4f5;*/
+    display: inline-table;
+
+}
+.style_prevu_kit:hover{
+    /*box-shadow: 0px 0px 150px #000000;*/
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+
+}

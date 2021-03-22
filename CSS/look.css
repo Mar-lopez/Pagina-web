@@ -1,0 +1,105 @@
+*{
+    padding:0;
+    margin:0;
+    color:#000000;
+    
+}
+
+html, body{
+    background-color: #ffffff;
+    text-align: center;
+    
+}
+.Z{
+    border:5px solid #162123;
+    border-radius: 0px;
+    margin: 0rem ;
+    background-color: #162123;
+    text-align: right;
+    font-family: 'Josefin Sans', sans-serif;
+    /*Letra mas recta*/
+}
+
+#agrupar {
+    background-color: #F3CECB; 
+    padding: 40px 40px 20px 500px; 
+    font-family: 'Playfair Display', serif;
+    /*Letra mas elegante*/
+}
+
+#menu {  
+    background-color: #F3CECB; 
+    padding:1px 0px 1px 250px ; 
+    
+} 
+#menu li { 
+    display: inline-block; 
+    list-style: none; 
+    font: bold 14px verdana, sans-serif; 
+    padding: 1em 3px 0px 25px;  
+    /*  arriba    1em  padding  */
+    /*  derecha  3px  padding  */
+    /*  abajo 30px padding  */
+    /*  izquierda   5px  padding
+    /* en dirección de las agujas del reloj */
+}
+
+
+.Principal{
+    border:5px solid #F6F4F5;
+    border-radius: 0px;
+    margin: 0rem ;
+    background-color: #F6F4F5;
+    text-align: Center; 
+    font-family: 'Playfair Display', serif;
+    /*Letra mas elegante*/
+}
+.que{
+    display: inline-block; 
+    /*
+    border:5px solid #000000;
+    border-radius: 10px;
+    Este es para hacer 
+    circular el margen*/
+    padding: 3rem;
+    /*hacia abajo*/
+    width: 65%;
+    /*ancho*/
+    height: 10rem;
+   /*largo*/
+    background-color: #F6F4F5;
+    text-align: Center; 
+}
+.origen{
+    display: inline-block; 
+    /*
+    border:5px solid #000000;
+    border-radius: 10px;
+    Este es para hacer 
+    circular el margen*/
+    padding: 3rem;
+    /*hacia abajo*/
+    width: 65%;
+    /*ancho*/
+    height: 10rem;
+   /*largo*/
+    background-color: #F6F4F5;
+    text-align: Center; 
+}
+
+.audio{
+    display: inline-block; 
+    /*
+    border:5px solid #000000;
+    border-radius: 10px;
+    Este es para hacer 
+    circular el margen*/
+    padding: 3rem;
+    /*hacia abajo*/
+    width: 65%;
+    /*ancho*/
+    height: 10rem;
+   /*largo*/
+    background-color: #F6F4F5;
+    text-align: Center; 
+}
